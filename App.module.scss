@@ -1,0 +1,16 @@
+.blue {
+  color: blue;
+}
+
+.blueText {
+  @extend .blue;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.root {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
