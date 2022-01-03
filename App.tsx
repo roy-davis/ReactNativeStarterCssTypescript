@@ -18,7 +18,7 @@ const App = () => {
       <StatusBar />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View className={styles.root}>
-          <Text className={blueText}>Example Text</Text>
+          <Text className={blueText}>Example Text tet</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
