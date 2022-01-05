@@ -1,0 +1,16 @@
+@import "../../common/mixins.scss";
+
+.label {
+  @extend .heading;
+  font-size: 18px;
+}
+
+.value {
+  @extend .heading;
+  font-size: 24px;
+}
+
+.unit {
+  @extend .heading;
+  font-size: 18px;
+}

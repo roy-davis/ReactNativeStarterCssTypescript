@@ -1,0 +1,6 @@
+@import "../../common/mixins.scss";
+
+.equals {
+  @extend .heading;
+  font-size: 64px;
+}

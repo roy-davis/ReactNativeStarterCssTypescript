@@ -1,0 +1,13 @@
+@import "../../common/mixins.scss";
+
+.root {
+}
+
+.label {
+  @extend .heading;
+  font-size: 18px;
+}
+
+.input {
+  font-size: 18px;
+}
