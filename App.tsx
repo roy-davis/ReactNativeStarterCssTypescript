@@ -36,8 +36,6 @@ const App = () => {
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View className={styles.root}>
           <Card>
-            <Result label="Round Length" value={round} unit="Days" />
-            <Equals />
             <View className={styles.calculation}>
               <Input label="Cover" value={cover} onChange={setCover} />
               <Input
@@ -51,6 +49,8 @@ const App = () => {
                 value={growthRate}
                 onChange={setGrowthRate}
               />
+              <Equals />
+              <Result label="Round Length" value={round} unit="Days" />
             </View>
           </Card>
         </View>
